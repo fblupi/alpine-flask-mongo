@@ -2,7 +2,8 @@ FROM frolvlad/alpine-python3
 
 MAINTAINER Francisco Javier Bolívar Lupiáñez <fboli94@gmail.com>
 
-RUN pip3 install Flask && \
-    pip3 install Flask-PyMongo && \
-    pip3 install mongoengine && \
-    pip3 install flask_mongoengine
+RUN pip install --upgrade pip & \
+    pip install Flask && \
+    pip install Flask-PyMongo && \
+    pip install mongoengine && \
+    pip install flask_mongoengine
