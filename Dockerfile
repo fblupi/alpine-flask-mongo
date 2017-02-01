@@ -1,4 +1,4 @@
-FROM docker pull frolvlad/alpine-python3
+FROM docker pull frolvlad/alpine-python3:latest
 
 MAINTAINER Francisco Javier Bolívar Lupiáñez <fboli94@gmail.com>
 
